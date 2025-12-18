@@ -20,8 +20,12 @@ console.table(teachers);
 const lastTeacheradd = teachers.push("Vanessa");
 console.table(teachers);
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-
+const firstTeacherAdd = teachers.unshift("Sarah");
+console.table(teachers);
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
+const index = teachers.indexOf("Lewis");
+console.log(index);
+
 // e salvalo nella variabile lewisIndex
 const lewisIndex = null;
 
