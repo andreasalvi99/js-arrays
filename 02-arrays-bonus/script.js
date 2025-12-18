@@ -11,9 +11,8 @@ const longNames = null;
 teachers.splice(1, 1);
 console.table(teachers);
 // 4. Verifica se 'Fabio' è presente nell'array teachers
-let isFabioIn = false;
 const teacherToFind = "Fabio";
-
+let isFabioIn = false;
 for (let i = 0; i < teachers.length; i++) {
   console.log(teachers[i]);
   console.log(teacherToFind);
@@ -25,9 +24,9 @@ for (let i = 0; i < teachers.length; i++) {
 }
 
 console.log("Insegnante trovato?", isFabioIn);
-
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+const isFabioPresent = isFabioIn;
+console.log(isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 const teachersString = null;
