@@ -17,7 +17,8 @@ console.log(firstTeacher);
 console.table(teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-
+const lastTeacheradd = teachers.push("Vanessa");
+console.table(teachers);
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
